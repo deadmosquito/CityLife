@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>City Life - An App for Web Developers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/307cf35ab6.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="nav-city">
+        <a class="navbar-brand">
+            <h3>City Life: Find Your Work-Life Balance <i class="fas fa-city"></i></h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+
+            <a href="https://github.com/deadmosquito/CityLife"><i class="fab fa-github-square"></i></a>
+
+
+            <a href="mailto: stevensorensen13@gmail.com"><i class="fas fa-envelope"></i></a>
+
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="display-4">Search by Job Title</h1>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-push-10 col-md-push-10 col-sm-push-10 col-xs-push-10">
+                    <form method="post" action="#">
+                        <input type="text" name="text" id="search">
+                        <input type="submit" name="submit" value="Search" id="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <br><br>
+    <div class="col-md-10" id="flowchart">
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Step 1: Enter a job search</h5>
+                    <img src="assets/images/personworking.jpg" class=demo-image id="one" alt="Search Image">
+                    <p class="card-text">Tell us what type of position you are looking to fill</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Step 2: Review your results</h5>
+                    <img src="assets/images/results.jpg" class=demo-image id="two" alt="Results Image">
+                    <p class="card-text">Look through the results to find that you think fits your skillset</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Step 3: Search for your new home</h5>
+                    <img src="assets/images/randomcity.jpg" class=demo-image id="four" alt="City Image">
+
+                    <p class="card-text">Click on the city location to read all about the city of your dreams</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container hideDiv">
+        <div class="row">
+            <div class="col-md-6" id="results">
+            </div>
+            <div class="col-md-6" id="widget">
+                <script async class="teleport-widget-script" data-url="https://teleport.org/cities/aarhus/widget/scores/?currency=USD" data-max-width="770" data-height="950" 
+                src="https://teleport.org/assets/firefly/widget-snippet.min.js"></script>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+    <br>
+    <footer class="footer">
+        &copy; 2019 City Life <a href="https://github.com/deadmosquito/CityLife"><i class="fab fa-github-square"></i></a> 
+        <a href="mailto: stevensorensen13@gmail.com"><i class="fas fa-envelope"></i></a>
+    </footer>
+
+
+    <style>
+        .select___2z8JA {
+            display: none !important;
+        }
+    </style>
+</body>
+
+</html>
